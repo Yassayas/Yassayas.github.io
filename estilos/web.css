@@ -191,3 +191,11 @@ label{
     color: black
 }
 
+fieldset{
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 500px ;
+    height:550px ;
+    float: left;
+    margin-left: 170px;
+}
