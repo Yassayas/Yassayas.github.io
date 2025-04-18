@@ -1,207 +1,195 @@
-.header1{
-    font-size: 50px;
-    text-align: center;
-    color: white;
-    font-style: italic;
-    font-weight: bold;
+.header1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
 }
 
-body{
-    background-image: url(../Fotos/fondo\ pagina\ principal.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-  
-
-nav{
-    background-color: aliceblue;
-    margin-top: 20px;
-    border-radius:13px ;
+body {
+  background-image: url(../Fotos/fondo\ pagina\ principal.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.boton{
-    text-align: center;
-    background-color: white;
-    width: max-content;
-    border-radius: 15px;
-    padding: 15px;
-    font-size: 15px;
-    margin-left: 290px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: black;
-    text-decoration: none;
+nav {
+  background-color: aliceblue;
+  margin-top: 20px;
+  border-radius: 13px;
 }
 
-nav div{
-    display: inline-block;
-    padding: 20px;
-    width: 24%;
-    color: white;
-    text-align: center;
+.boton {
+  text-align: center;
+  background-color: white;
+  width: max-content;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 15px;
+  margin-left: 290px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  text-decoration: none;
 }
 
-
-a{
-    outline: none;
-    text-decoration: none;
-    color: black;
-
+nav div {
+  display: inline-block;
+  padding: 20px;
+  width: 24%;
+  color: white;
+  text-align: center;
 }
 
-a:link{
-    color: black;
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
 }
 
-.boton:hover{
-    background-color: antiquewhite;
+a:link {
+  color: black;
 }
 
-aside{
-    background-color: aliceblue;
-    float: left;
-    margin-top: 60px;
-    margin-left:15PX ;
-    width: 300PX;
-    height:600PX ;
-    text-align: center;
-    border-radius:10px ;
+.boton:hover {
+  background-color: antiquewhite;
 }
 
-h1{
-    color: black;
-    
-}
-li{
-    text-align: left;
-    font-weight: bold;
-  
-}
-
-img.Fotodeperfil{
-    width:230px ;
+aside {
+  background-color: aliceblue;
+  float: left;
+  margin-top: 60px;
+  margin-left: 15px;
+  width: 300px;
+  height: 600px;
+  text-align: center;
+  border-radius: 10px;
 }
 
-.caracteristicas{
-    column-count: 3;
-width: 1430px;
-height: 210px;
-float: left;
-margin-top: 20px;
-margin-bottom: 20px;
-background-color: aliceblue;
-padding: 5px;
-border: 2px blue solid;
-text-align: center;
-color: black;
-font-size: 20px;
-margin-left: 100px;
+h1 {
+  color: black;
+}
+li {
+  text-align: left;
+  font-weight: bold;
 }
 
-footer{
-font-weight: bold;
-clear: both;
-background-color: aliceblue;
-text-align: center;
-padding: 10px;
-border-radius: 10px;
+img.Fotodeperfil {
+  width: 230px;
 }
 
-.carac{
-    text-align: center;
-    margin-top: 2px;
-    
+.caracteristicas {
+  column-count: 3;
+  width: 1430px;
+  height: 210px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  padding: 5px;
+  border: 2px blue solid;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-left: 100px;
 }
 
-.csm{
-    color: white;
-    margin-left:50px ;
-    float: left;
+footer {
+  font-weight: bold;
+  clear: both;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.hrp{
-
-    width: 1500px;
+.carac {
+  text-align: center;
+  margin-top: 2px;
 }
 
-.aqn{
-    color: white;
-    margin-left: 50px;
-    float: left;
+.csm {
+  color: white;
+  margin-left: 50px;
+  float: left;
 }
 
-.futbol{
-    width:330px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    margin-left: 300px;
+.hrp {
+  width: 1500px;
 }
 
-.tjaf{
-    color: white;
-    margin-left: 720px;
-    margin-top: 30px;
-
+.aqn {
+  color: white;
+  margin-left: 50px;
+  float: left;
 }
 
-.play{
-    width:330px;
-    margin-top: -900px;
-    margin-bottom: 3px;
-    margin-left: 1300px;   
+.futbol {
+  width: 330px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 300px;
 }
 
-.tplay{
-    color: white;
-    margin-left: 1410px;
-    margin-top: -275px;
+.tjaf {
+  color: white;
+  margin-left: 720px;
+  margin-top: 30px;
 }
 
-.ap{
-    color: white;
-    margin-left:365px ;
-    margin-top: 50px;
-    
+.play {
+  width: 330px;
+  margin-top: -900px;
+  margin-bottom: 3px;
+  margin-left: 1300px;
 }
 
-.hrp1{
-    width: 1505px;;
-    margin-left: 357px;
+.tplay {
+  color: white;
+  margin-left: 1410px;
+  margin-top: -275px;
 }
 
-.insta{
-    float: left;
-    width: 130px;
-    margin-left: 1000px;
-    margin-bottom: 40px;
-    
+.ap {
+  color: white;
+  margin-left: 365px;
+  margin-top: 50px;
 }
 
-.tig{
-    color: white;
-    width: 400px;
-   text-align: center;
-   margin-left: 870px;
-
+.hrp1 {
+  width: 1505px;
+  margin-left: 357px;
 }
 
-label{
-    color: black
+.insta {
+  float: left;
+  width: 130px;
+  margin-left: 1000px;
+  margin-bottom: 40px;
 }
 
-fieldset{
-    background-color: aliceblue;
-    border-radius: 15px;
-    width: 500px ;
-    height:550px ;
-    float: left;
-    margin-left: 170px;
+.tig {
+  color: white;
+  width: 400px;
+  text-align: center;
+  margin-left: 870px;
 }
-.fieldset2{
-    background-color: aliceblue;
-    border-radius:15px ;
-    float: left;
-    
+
+label {
+  color: black;
+}
+
+fieldset {
+  background-color: aliceblue;
+  border-radius: 15px;
+  width: 500px;
+  height: 550px;
+  float: left;
+  margin-left: 170px;
+}
+.fieldset2 {
+  background-color: aliceblue;
+  border-radius: 15px;
+  float: left;
 }
