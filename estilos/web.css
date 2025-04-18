@@ -199,3 +199,9 @@ fieldset{
     float: left;
     margin-left: 170px;
 }
+.fieldset2{
+    background-color: aliceblue;
+    border-radius:15px ;
+    float: left;
+    
+}
