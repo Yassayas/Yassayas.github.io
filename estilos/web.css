@@ -212,7 +212,7 @@ label{
 }
 
 .cv1{
-    background-color: black;
+    background-color: gray;
     float: left;
     height: 250px;
     width: 1100px;
@@ -247,9 +247,9 @@ label{
 .ulencabezadocv{
     color: white;
     text-align: center;
-    margin-top: -130px;
+    margin-top: -160px;
     float: left;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .h1cv{
@@ -262,4 +262,31 @@ label{
     color: white;
     margin-top: 40px;
     margin-left: 730px;
+}
+
+.li1{
+    list-style-image: url(../Fotos/img1cv.png);
+    
+}
+
+.li2{
+    list-style-image: url(../Fotos/img2cv.png);
+}
+
+.li3{
+    list-style-image: url(../Fotos/img3cv.png);
+}
+
+
+
+.h1pp{
+    color:black;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.h3pp{
+    color: black;
+    margin-top: 40px;
+    margin-left: 50px;
 }
