@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
+    <script>
+      function procesarFormulario(event) {
+          event.preventDefault(); // Evita el envío del formulario
+          alert('Formulario Enviado');
+      }
+  </script>
     <link rel="stylesheet" href="estilos/web.css" />
   </head>
   <body>
@@ -28,7 +34,7 @@
     </nav>
     <aside>
       <h1>Sobre Mi</h1>
-      <img class="Fotodeperfil" src="Fotos/Mi foto.jpg" alt="Tung" />
+      <img class="Fotodeperfil" src="Fotos/Mi foto.jpg" alt="Mi foto" />
       <br />
       <br />
       <ul>
@@ -45,7 +51,7 @@
         <li>Localidad: Rivas-Vaciamadrid</li>
       </ul>
     </aside>
-    <form action="formulario">
+    <form onsubmit="procesarFormulario(event)">
       <fieldset class="hola">
         <legend>
           <h2>Datos Personales</h2>
@@ -174,7 +180,7 @@
         <textarea name="Descripcion" id="Descripcion" rows="6" cols="70" placeholder="Esta Descripcion tiene que tener alrededor de 2 lineas"></textarea>
         <br>
         <br>
-        <input type="submit">
+        <input type="submit" >
         <input type="reset">
       </fieldset>
     </form>
